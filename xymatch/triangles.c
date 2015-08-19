@@ -157,10 +157,8 @@ void triangles(float *x1, float *y1, float *x2, float *y2,
     if (par.verbose > 2)
       printf("%ld count= %d  vote= %d  best= %d  vote(best)= %d (%g) %d\n",
         i, count, vote[count], best, vote[best], par.fvno*(nobj1-2)*(nobj1-1)/2);
-        //i, count, vote[count], best, vote[best], par.fvno*nobj1*(nobj1-1)/2);
 
     if ((count) && (vote[best] > par.fvno*(nobj1-2)*(nobj1-1)/2))
-    //if ((count) && (vote[best] > par.fvno*nobj1*(nobj1-1)/2))
       xx[i]=vidx[best];
     else
       xx[i]=-1;
