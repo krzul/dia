@@ -306,7 +306,7 @@ printf("nsub2= %d\n", nsub2);
 
   if (par.verbose > 1)
   {
-    printf("Linear transformation:\n");
+    printf("Linear transformation data:\n");
     printf("----------------------\n");
     for (i=0; i<3; i++)
       printf("coeffx[%d]= %12g   coeffy[%d]= %12g\n",
