@@ -84,6 +84,5 @@ void xy_lin(float *x1, float *y1, float *x2, float *y2, int nobj,
   coeffy[1] = ( b1/a12 - coeffy[0]*a11/a12 );
   coeffy[2] = ( sum_y1 - coeffy[0]*sum_x2 - coeffy[1]*sum_y2 )/nobj;
 
-    printf("Fit done\n");
   return;
 }
